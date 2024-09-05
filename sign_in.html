@@ -4,14 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign in</title>
     <link rel="stylesheet" type="text/css" href="css/test.css">
+
 </head>
 <body>
+    <div class="header_section">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">OUR PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="video.html">VIDEO GAMES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="remot.html">REMOT CONTROL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+	</div>
     <div class="form_wrapper">
         <div class="form_container">
           <div class="title_container">
-            <h2>Sign Up</h2>
+            <h2>Sign In</h2>
           </div>
           <div class="row clearfix">
             <div class="">
@@ -19,43 +50,11 @@
                 <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
                   <input type="username" name="username" placeholder="Username" required />
                 </div>
-                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-                  <input type="email" name="email" placeholder="Email" required />
-                </div>
                 <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
                   <input type="password" name="password" placeholder="Password" required />
                 </div>
-                <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-                  <input type="password" name="password" placeholder="Re-type Password" required />
-                </div>
-                <div class="row clearfix">
-                  <div class="col_half">
-                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="name" placeholder="First Name" />
-                    </div>
-                  </div>
-                  <div class="col_half">
-                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                      <input type="text" name="name" placeholder="Last Name" required />
-                    </div>
-                  </div>
-                </div>
-                    <div class="input_field radio_option">
-                    <input type="radio" name="radiogroup1" id="rd1">
-                    <label for="rd1">Male</label>
-                    <input type="radio" name="radiogroup1" id="rd2">
-                    <label for="rd2">Female</label>
-                    </div>
-                  <div class="input_field checkbox_option">
-                    <input type="checkbox" id="cb1">
-                <label for="cb1">I agree with terms and conditions</label>
-                  </div>
-                  <div class="input_field checkbox_option">
-                    <input type="checkbox" id="cb2">
-                <label for="cb2">I want to receive the newsletter</label>
-                  </div>
-                <input class="button" type="submit" value="Register" />
-                <input class="button" onclick="window.location.href='index.html'" type="submit" value="Cancel"/>
+                <input class="button" type="submit" value="Sign in" />
+                <input class="button" onclick="window.location.href='index.html'" type="submit" value="Back to main menu"/>
               </form>
             </div>
           </div>

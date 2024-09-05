@@ -1,8 +1,10 @@
 body {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Poppins;
   font-size: 14px;
   background: #f2f2f2;
+  background-color: #666666;
 }
+
 .clearfix:after {
   content: "";
   display: block;
@@ -10,6 +12,7 @@ body {
   visibility: hidden;
   height: 0;
 }
+
 .form_wrapper {
   background: #fff;
   width: 400px;
@@ -19,7 +22,7 @@ body {
   margin: 8% auto 0;
   position: relative;
   z-index: 1;
-  border-top: 5px solid #f5ba1a;
+  border-top: 5px solid #4f99e5;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -33,41 +36,50 @@ body {
   animation: expand 0.8s 0.6s ease-out forwards;
   opacity: 0;
 }
+
 .form_wrapper h2 {
   font-size: 1.5em;
   line-height: 1.5em;
   margin: 0;
 }
+
 .form_wrapper .title_container {
   text-align: center;
   padding-bottom: 15px;
 }
+
 .form_wrapper h3 {
   font-size: 1.1em;
   font-weight: normal;
   line-height: 1.5em;
   margin: 0;
 }
+
 .form_wrapper label {
   font-size: 12px;
 }
+
 .form_wrapper .row {
   margin: 10px -15px;
 }
+
 .form_wrapper .row > div {
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .form_wrapper .col_half {
   width: 50%;
   float: left;
 }
+
 .form_wrapper .input_field {
   position: relative;
   margin-bottom: 20px;
   -webkit-animation: bounce 0.6s ease-out;
   animation: bounce 0.6s ease-out;
 }
+
 .form_wrapper .input_field > span {
   position: absolute;
   left: 0;
@@ -78,12 +90,15 @@ body {
   text-align: center;
   width: 30px;
 }
+
 .form_wrapper .input_field > span > i {
   padding-top: 10px;
 }
+
 .form_wrapper .textarea_field > span > i {
   padding-top: 10px;
 }
+
 .form_wrapper input[type="text"], .form_wrapper input[type="email"], .form_wrapper input[type="password"], .form_wrapper input[type="username"] {
   width: 100%;
   padding: 8px 10px 9px 35px;
@@ -96,18 +111,21 @@ body {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .form_wrapper input[type="text"]:hover, .form_wrapper input[type="email"]:hover, .form_wrapper input[type="password"]:hover, .form_wrapper input[type="username"]:hover {
   background: #fafafa;
 }
+
 .form_wrapper input[type="text"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus, .form_wrapper input[type="username"]:focus {
   -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
   -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
   box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
-  border: 1px solid #f5ba1a;
+  border: 1px solid #4f99e5;
   background: #fafafa;
 }
+
 .form_wrapper input[type="submit"] {
-  background: #f5ba1a;
+  background: #4f99e5;
   height: 35px;
   line-height: 35px;
   width: 100%;
@@ -122,12 +140,15 @@ body {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .form_wrapper input[type="submit"]:hover {
-  background: #e1a70a;
+  background: #4f99e5;
 }
+
 .form_wrapper input[type="submit"]:focus {
-  background: #e1a70a;
+  background: #4f99e5;
 }
+
 .form_wrapper input[type="checkbox"], .form_wrapper input[type="radio"] {
   border: 0;
   clip: rect(0 0 0 0);
@@ -138,13 +159,16 @@ body {
   position: absolute;
   width: 1px;
 }
+
 .form_container .row .col_half.last {
   border-left: 1px solid #ccc;
 }
+
 .checkbox_option label {
   margin-right: 1em;
   position: relative;
 }
+
 .checkbox_option label:before {
   content: "";
   display: inline-block;
@@ -158,6 +182,7 @@ body {
   background-clip: content-box;
   transition: all 0.2s ease;
 }
+
 .checkbox_option label:after {
   border-right: 2px solid #000;
   border-top: 2px solid #000;
@@ -171,12 +196,15 @@ body {
   width: 7px;
   display: none;
 }
+
 .checkbox_option input:hover + label:before {
   border-color: #000;
 }
+
 .checkbox_option input:checked + label:before {
   border-color: #000;
 }
+
 .checkbox_option input:checked + label:after {
   -moz-animation: check 0.8s ease 0s running;
   -webkit-animation: check 0.8s ease 0s running;
@@ -186,9 +214,11 @@ body {
   height: 20px;
   border-color: #000;
 }
+
 .radio_option label {
   margin-right: 1em;
 }
+
 .radio_option label:before {
   content: "";
   display: inline-block;
@@ -203,17 +233,21 @@ body {
   background-clip: content-box;
   transition: all 0.2s ease;
 }
+
 .radio_option input:hover + label:before {
   border-color: #000;
 }
+
 .radio_option input:checked + label:before {
   background-color: #000;
   border-color: #000;
 }
+
 .select_option {
   position: relative;
   width: 100%;
 }
+
 .select_option select {
   display: inline-block;
   width: 100%;
@@ -229,9 +263,11 @@ body {
   -moz-appearance: none;
   transition: all 0.2s ease;
 }
+
 .select_option select::-ms-expand {
   display: none;
 }
+
 .select_option select:hover, .select_option select:focus {
   color: #000;
   background: #fafafa;
@@ -253,6 +289,7 @@ body {
     width: 7px;
  }
 }
+
 @keyframes check {
   0% {
     height: 0;
@@ -267,6 +304,7 @@ body {
     width: 7px;
  }
 }
+
 @-webkit-keyframes expand {
   0% {
     -webkit-transform: scale3d(1, 0, 1);
@@ -286,6 +324,7 @@ body {
     opacity: 1;
  }
 }
+
 @keyframes expand {
   0% {
     -webkit-transform: scale3d(1, 0, 1);
@@ -310,6 +349,7 @@ body {
     opacity: 1;
  }
 }
+
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translate3d(0, -25px, 0);
@@ -329,6 +369,7 @@ body {
     opacity: 1;
  }
 }
+
 @keyframes bounce {
   0% {
     -webkit-transform: translate3d(0, -25px, 0);
@@ -353,6 +394,7 @@ body {
     opacity: 1;
  }
 }
+
 @media (max-width: 600px) {
   .form_wrapper .col_half {
     width: 100%;
