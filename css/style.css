@@ -819,3 +819,39 @@ button {
     margin-top: 0px; 
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .titlepage h2::after {width: 58%;}
+    .about-box .titlepage h2::after {
+        width: 52%;
+right: -221px;
+    }
+    .Nursery-img .text-box h3 {padding: 111px 50px;}
+    .contact .titlepage h2::after {
+    left: -650px;
+width: 30%;
+   }
+
+.video_text { font-size: 43px; }
+.controller_text { font-size: 46px; }
+.banner_text { padding-top: 0px; }
+#my_slider a.carousel-control-next { display: none; }
+#my_slider a.carousel-control-prev { display: none; }
+.banner_section { padding-bottom: 90px; }
+.about_section { padding-top: 0px; }
+.product_text { font-size: 37px; }
+.video_text_2 { font-size: 37px; }
+.controller_text_2 { font-size: 31px; }
+.banner_text_2 { padding-top: 0px; }
+.video_section { padding-bottom: 80px; }
+.testimonial_text { font-size: 40px; }
+.client_right { left: -30px; }
+.image_6 { margin-top: 50px; }
+.social_icon { width: 70%; }
+.social_icon ul { display: inline-flex; }
+.section_footer { margin-top: 0px; }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}}
