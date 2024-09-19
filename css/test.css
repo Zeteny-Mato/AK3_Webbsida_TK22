@@ -162,6 +162,8 @@ body {
 
 .form_container .row .col_half.last {
   border-left: 1px solid #ccc;
+  display: flex;
+  align-items: center;
 }
 
 .checkbox_option label {
@@ -406,8 +408,14 @@ body {
  }
   .form_container .row .col_half.last {
     border-left: none;
+    display: flex;
+    align-items: center;
  }
   .remember_me {
     padding-bottom: 20px;
  }
+}
+
+.navbar{
+  background-color: #4f99e5;
 }
