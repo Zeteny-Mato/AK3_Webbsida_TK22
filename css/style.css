@@ -594,7 +594,6 @@ button {
 .images_5{
     width: 100%;
     float: left;
-    padding-left: 15px;
 }
 
 .sandy_text{
@@ -607,6 +606,27 @@ button {
 .sandy_text_1{
     width: 100%;
     float: left;
+    font-size: 18px;
+    color: #191919;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.images_7{
+    width: 75%;
+    float: left;
+}
+
+.sandy_text_emil{
+    width: 100%;
+    float: right;
+    font-size: 20px;
+    color: #fefeff;
+}
+
+.sandy_text_emil1{
+    width: 100%;
+    float: right;
     font-size: 18px;
     color: #191919;
     margin-left: 0px;
