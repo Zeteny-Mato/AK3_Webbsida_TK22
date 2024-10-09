@@ -804,31 +804,6 @@ button {
     padding-top: 40px;
 }
 
-.copyright_section{
-    width: 100%;
-    float: left;
-    background-color: #599ee9;
-    height: auto;
-}
-
-.copyright_text{
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    margin-left: 0px;
-}
-
-.copyright_text a{
-    color: #ffffff;
-}
-
-.copyright_text a:hover{
-    color: #000;
-}
-
-
 .margin_top_0{
     margin-top: 90px;
 }
@@ -881,3 +856,15 @@ width: 30%;
     padding-left: 10px;
     font-size: 14px;
 }}
+
+.checked {
+    color: #599ee9;
+}
+
+.fa-star {
+    font-size: 50px;
+}
+
+.fa {
+    font-size: 50px;
+}
