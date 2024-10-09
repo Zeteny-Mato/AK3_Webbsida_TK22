@@ -585,7 +585,7 @@ button {
 .client_right {
     width: 50%;
     float: left;
-    text-align: left;
+    text-align: center;
     padding-top: 25px;
     position: relative;
     left: -60px;
